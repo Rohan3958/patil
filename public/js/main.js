@@ -12,7 +12,7 @@ const getInfo = async(event) => {
     let cityVal = cityName.value;
 
     if(cityVal === ""){
-        city_name.innerText = `Plz write the name before search`;
+        city_name.innerText = `Bsdk barobar city name taak`;
         datahide.classList.add("data_hide");
     }else{
 
@@ -52,8 +52,8 @@ const getInfo = async(event) => {
         }catch{
             cityVal = " ";
             datahide.classList.add("data_hide");
-            city_name.innerText =  `please enter the proper city name`;
-            console.log('please add the proper city name');
+            city_name.innerText =  `abey chaman chutiye correct city name taak`;
+            console.log('bsdk');
         }
         
     }
